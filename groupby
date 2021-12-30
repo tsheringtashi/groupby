@@ -24,4 +24,7 @@ drink.groupby("CONTINENT")["SPIRIT_SERVINGS"].agg(["mean", "min","max"])
 df.groupby('index')[select_cols]
 
 
+df.groupby('col').describe()
+
+
 
