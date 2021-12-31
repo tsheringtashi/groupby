@@ -26,5 +26,9 @@ df.groupby('index')[select_cols]
 
 df.groupby('col').describe()
 
+df.groupby('col').get_group('value_of_col) # liken filter.
+
+df.groupby("name", as_index = False)["age"].sum().plot()
+
 
 
